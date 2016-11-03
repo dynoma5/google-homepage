@@ -1,8 +1,53 @@
+.header{
+	text-decoration:none;
+	display:inline;
+	text-align:right;
+	margin-top:0;
+}
 .logo {
+	width:272px;
 	padding:0;
-	margin:150px 550px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:150px;
 	position:relative;
 }
 .search {
-	margin-top:50px;
+	width:430px;
+	height:30px;
+	left:-75px;
+	position:absolute;
+	}
+.submit {
+	position:absolute;
+	top:150px;
+	width:114px;
+	height:34px;
+	left:10px;
+	border:none;
+	background-color:#f2f2f2;
+	font-weight:bold;
+	color:#757575;
+}
+.submit:hover {
+	border:solid gray;
+	border-width:1px;
+	color:black;
+}	
+.lucky{
+	position:absolute;
+	top:150px;
+	width:118px;
+	height:34px;
+	right:24px;
+	text-align:center;
+	border:none;
+	background-color:#f2f2f2;
+	font-weight:bold;
+	color:#757575;
+}
+.lucky:hover{
+	border:solid gray;
+	border-width:1px;
+	color:black;
 }
