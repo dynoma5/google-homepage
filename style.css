@@ -9,6 +9,8 @@
 
 .bar {
 	float:right;
+	margin-top:10px;
+	margin-right:10px;
 }
 
 #mail {
@@ -17,6 +19,7 @@ margin-right:8px;
 text-decoration:none;
 color:black;
 }
+
 #mail:hover{
 	text-decoration:underline;
 }
@@ -48,17 +51,26 @@ div span a:hover {
 	height:40px;
 	background-color:#f2f2f2;
 }
+
 #l_foot{
 	float:left;
 	padding-top:11px;
 	font-size:14px;
+	color:grey;
 }
+#l_foot span a{
+	padding-left:20px;
+}
+
 #r_foot{
 	float:right;
 	padding-top:10px;
 	font-size:14px;
 }
 
+#r_foot span a {
+	padding-right:20px;
+}
 #logo {
 	top:100px;
 	margin-left:auto;
